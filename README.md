@@ -27,4 +27,4 @@ Regarding the React app, you will find the following features:
 * Run `npm install` on the root folder and on the `api` and `client` folders.
 * Run `npm run dev` on the root folder to start the API and the React app.
 * Your API will be running on `http://localhost:9000` and your React app will be running on `http://localhost:3000`
-* On the React app, you will see a rendered object from the API. This is the result of the `Data` component fetching data from the API.
+* On the React app, you will see a rendered object from the API. This is the result of the `Data` component fetching data from the database through the API.
