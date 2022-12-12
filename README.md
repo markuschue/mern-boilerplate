@@ -1,12 +1,15 @@
 # MERN Project Boilerplate
-This is a custom boilerplate for a MERN project.
+This is a custom simple boilerplate for a MERN project.
 
 * On the `api` folder, you will find the backend code, which is a NodeJS API using Express and MongoDB.
-* On the `client` folder, you will find the frontend code, which is a ReactJS app that runs a default App with a
-Data component used for fetching data from the API.
+* On the `client` folder, you will find the frontend code, which is a ReactJS app that runs a default App with a Data component used for fetching data from the API.
+
+This boilerplate has the purpose of keeping things simple, so some of the default files from the Express and React generators are removed, such as the `reportVitals.js` or testing files in the React app.  
+To retrieve the default files, you can just run `npx express-generator` or `npx create-react-app` on the `api` and `client` folders, respectively,
+or you can consult the official documentation for each of them. 
 
 ## Features
-In this boilerplate you will a custom Express server with the following features:
+In this boilerplate you will find a custom Express server with the following features:
 * It's mainly an Express server created with `npx express-generator`, so it contains many of the default files.
 * A main app file (in `api/app.js`). Here the Express server is created and the routes are added.
 * Two routes (under the `api/routes` folder):
